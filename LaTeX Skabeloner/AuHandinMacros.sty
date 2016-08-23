@@ -1,1 +1,24 @@
 %AuHandinMacros
+
+%Macro for adding vejleder
+\def\@vejleder{vejleder}
+\newcommand{\SetVejleder}[1]{
+	\def\@vejleder{#1}
+}
+%Macro For insetting vejleder
+\newcommand{\ShowVejleder}[0]{\@vejleder}
+
+%Macro for setting the Assignment (eks. Semesterprojekt 3. Semester)
+\def\@project{Projectforløbsnavn}
+\newcommand{\SetProject}[1]{
+	\def\@project{#1}	
+}
+%Macro for insetting the assignment name
+\newcommand{\ShowProject}[0]{\@project}
+
+%Macros for storing and showing the name of the School department
+\def\@university{Universitetsnavn}
+\newcommand{\SetUniversity}[1]{
+	\def\@university{#1}
+}
+\newcommand{\ShowUniversity}[0]{\@university}
