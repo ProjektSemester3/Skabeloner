@@ -10,8 +10,8 @@
 %Defining Page Header
 \makepagestyle{AuHandin}
 \copypagestyle{plain}{AuHandin}
-\makeevenhead{AuHandin}{\theauthor}{\thetitle}{\today}
-\makeoddhead{AuHandin}{\theauthor}{\thetitle}{\today}
+\makeevenhead{AuHandin}{Gruppe \ShowGroupNumber}{\thetitle}{\today}
+\makeoddhead{AuHandin}{Gruppe \ShowGroupNumber}{\thetitle}{\today}
 
 %Defining Page footer
 \makeevenfoot{AuHandin}{}{}{\thepage}

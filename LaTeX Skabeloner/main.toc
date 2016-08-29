@@ -1,0 +1,6 @@
+\select@language {danish}
+\contentsline {chapter}{Indhold}{i}
+\contentsline {chapter}{\chapternumberline {1}Dummy chapter}{1}
+\contentsline {section}{\numberline {1.1}section test 1}{1}
+\contentsline {subsection}{ sub section test 1}{1}
+\contentsline {subsubsection}{ subsubsection test }{1}
